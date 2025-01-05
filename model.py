@@ -55,7 +55,7 @@ idx2word = tokenizer.index_word
 vocab_size = tokenizer.num_words
 
 
-
+print(vocab_size)
 
 def sentenceToData(tokens, WINDOW_SIZE):
     window = np.concatenate((np.arange(-WINDOW_SIZE,0),np.arange(1,WINDOW_SIZE+1)))
